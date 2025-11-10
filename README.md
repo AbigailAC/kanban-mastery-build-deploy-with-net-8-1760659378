@@ -4,11 +4,7 @@
 
 ## 🌐 Demo
 
-[Your Demo Link Here](http://replace-with-your-link.com)
-
-**Demo Credentials (If applicable):**
-- **Username:** ReplaceThisWithUsername
-- **Password:** ReplaceThisWithPassword
+Coming soon! This project is under active development.
 
 ## 📖 About This Project
 
@@ -30,15 +26,7 @@ KanbanBoard is a modern task management application following the Kanban methodo
 
 ## 🖼️ Screenshots
 
-To give you a visual overview of the application, here are some screenshots:
-
-### [Feature or Page Name]
-![Description of Image](http://link-to-your-image.com/image1.png)
-
-### [Another Feature or Page Name]
-![Description of Image](http://link-to-your-image.com/image2.png)
-
-Add more screenshots as needed. Ensure to replace placeholders with appropriate links and descriptions.
+Screenshots will be added as features are developed in upcoming sprints.
 
 ## ⚠️ Warning
 
