@@ -10,15 +10,23 @@
 - **Username:** ReplaceThisWithUsername
 - **Password:** ReplaceThisWithPassword
 
-## 📖 About this Software
+## 📖 About This Project
 
-Provide a comprehensive explanation of your software here. Dive into its core functionalities, why you opted to create it, its target users, and its value proposition.
+KanbanBoard is a modern task management application following the Kanban methodology. Built as a professional learning project using .NET 8 and following clean architecture principles, this application demonstrates enterprise-level development practices including continuous integration, comprehensive testing, and production-ready deployment strategies.
 
-### Features:
+### Tech Stack:
 
-1. **Feature 1:** Brief description.
-2. **Feature 2:** Brief description.
-3. **...:** Continue listing out the core features of your application.
+- **Backend:** ASP.NET Core 9 MVC
+- **Database:** Entity Framework Core (coming in Sprint 3)
+- **Authentication:** ASP.NET Core Identity (coming in Sprint 4)
+- **CI/CD:** GitHub Actions
+- **Testing:** xUnit with Fluent Assertions (coming soon)
+
+### Current Features (Sprint 1):
+
+1. **Project Setup:** Professional ASP.NET Core MVC structure
+2. **CI Pipeline:** Automated builds and tests on every push
+3. **Git Workflow:** Feature branches and conventional commits
 
 ## 🖼️ Screenshots
 
