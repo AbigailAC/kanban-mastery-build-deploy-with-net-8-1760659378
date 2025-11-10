@@ -1,0 +1,44 @@
+# This is a GitHub Actions workflow for Continuous Integration
+# It automatically builds and tests your project on every push and pull request
+
+name: .NET CI
+
+# When should this workflow run?
+on:
+  push:
+    branches: [ main, master, develop ]  # Run on pushes to these branches
+  pull_request:
+    branches: [ main, master, develop ]  # Run on PRs targeting these branches
+
+# Define the jobs to run
+jobs:
+  build:
+    # What operating system to run on
+    runs-on: ubuntu-latest  # Ubuntu is faster and cheaper than Windows for CI
+    
+    steps:
+    # Step 1: Check out the code from the repository
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    # Step 2: Set up .NET SDK
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '9.0.x'  # Use .NET 9 (what we have installed)
+    
+    # Step 3: Restore dependencies
+    # This downloads all NuGet packages the project needs
+    - name: Restore dependencies
+      run: dotnet restore
+    
+    # Step 4: Build the project
+    # This compiles your code and checks for errors
+    - name: Build
+      run: dotnet build --no-restore --configuration Release
+    
+    # Step 5: Run tests (when we add them later)
+    # Currently this will pass because there are no tests yet
+    - name: Test
+      run: dotnet test --no-build --configuration Release --verbosity normal
+
