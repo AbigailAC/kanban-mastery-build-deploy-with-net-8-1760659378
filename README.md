@@ -1,36 +1,32 @@
-# GenericTemplate
+# KanbanBoard - Professional Task Management
 
-**[Insert a brief description of your application here. Describe its purpose, functionality, etc.]**
+**A modern, full-featured Kanban board application built with ASP.NET Core for efficient project and task management.**
 
 ## 🌐 Demo
 
-[Your Demo Link Here](http://replace-with-your-link.com)
+Coming soon! This project is under active development.
 
-**Demo Credentials (If applicable):**
-- **Username:** ReplaceThisWithUsername
-- **Password:** ReplaceThisWithPassword
+## 📖 About This Project
 
-## 📖 About this Software
+KanbanBoard is a modern task management application following the Kanban methodology. Built as a professional learning project using .NET 8 and following clean architecture principles, this application demonstrates enterprise-level development practices including continuous integration, comprehensive testing, and production-ready deployment strategies.
 
-Provide a comprehensive explanation of your software here. Dive into its core functionalities, why you opted to create it, its target users, and its value proposition.
+### Tech Stack:
 
-### Features:
+- **Backend:** ASP.NET Core 8 MVC
+- **Database:** Entity Framework Core (coming in Sprint 3)
+- **Authentication:** ASP.NET Core Identity (coming in Sprint 4)
+- **CI/CD:** GitHub Actions
+- **Testing:** xUnit with Fluent Assertions (coming soon)
 
-1. **Feature 1:** Brief description.
-2. **Feature 2:** Brief description.
-3. **...:** Continue listing out the core features of your application.
+### Current Features (Sprint 1):
+
+1. **Project Setup:** Professional ASP.NET Core MVC structure
+2. **CI Pipeline:** Automated builds and tests on every push
+3. **Git Workflow:** Feature branches and conventional commits
 
 ## 🖼️ Screenshots
 
-To give you a visual overview of the application, here are some screenshots:
-
-### [Feature or Page Name]
-![Description of Image](http://link-to-your-image.com/image1.png)
-
-### [Another Feature or Page Name]
-![Description of Image](http://link-to-your-image.com/image2.png)
-
-Add more screenshots as needed. Ensure to replace placeholders with appropriate links and descriptions.
+Screenshots will be added as features are developed in upcoming sprints.
 
 ## ⚠️ Warning
 
