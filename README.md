@@ -1,6 +1,6 @@
-# GenericTemplate
+# KanbanBoard - Professional Task Management
 
-**[Insert a brief description of your application here. Describe its purpose, functionality, etc.]**
+**A modern, full-featured Kanban board application built with ASP.NET Core for efficient project and task management.**
 
 ## 🌐 Demo
 
