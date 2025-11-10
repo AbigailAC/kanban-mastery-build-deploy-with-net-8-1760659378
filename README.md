@@ -12,7 +12,7 @@ KanbanBoard is a modern task management application following the Kanban methodo
 
 ### Tech Stack:
 
-- **Backend:** ASP.NET Core 9 MVC
+- **Backend:** ASP.NET Core 8 MVC
 - **Database:** Entity Framework Core (coming in Sprint 3)
 - **Authentication:** ASP.NET Core Identity (coming in Sprint 4)
 - **CI/CD:** GitHub Actions
