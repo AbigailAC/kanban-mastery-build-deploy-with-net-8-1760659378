@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/KanbanBoard.csproj",
+                "${workspaceFolder}/src/KanbanBoard.Api/KanbanBoard.Api.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/KanbanBoard.csproj",
+                "${workspaceFolder}/src/KanbanBoard.Api/KanbanBoard.Api.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/KanbanBoard.csproj"
+                "${workspaceFolder}/src/KanbanBoard.Api/KanbanBoard.Api.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
