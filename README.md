@@ -12,17 +12,39 @@ KanbanBoard is a modern task management application following the Kanban methodo
 
 ### Tech Stack:
 
-- **Backend:** ASP.NET Core 8 MVC
-- **Database:** Entity Framework Core (coming in Sprint 3)
-- **Authentication:** ASP.NET Core Identity (coming in Sprint 4)
+- **Backend:** ASP.NET Core 9 Web API
+- **Database:** Entity Framework Core (coming soon)
+- **Authentication:** ASP.NET Core Identity (coming soon)
 - **CI/CD:** GitHub Actions
 - **Testing:** xUnit with Fluent Assertions (coming soon)
 
-### Current Features (Sprint 1):
+## Project Structure
 
-1. **Project Setup:** Professional ASP.NET Core MVC structure
-2. **CI Pipeline:** Automated builds and tests on every push
-3. **Git Workflow:** Feature branches and conventional commits
+### Solution Organization
+
+```
+KanbanBoard/
+├── src/
+│   └── KanbanBoard.Api/          # Web API project
+│       ├── Data/                  # Database context & repositories
+│       ├── Models/                # Entities and DTOs
+│       ├── Services/              # Business logic
+│       ├── Endpoints/             # API endpoints
+│       └── Program.cs             # Application entry point
+├── .github/
+│   └── workflows/
+│       └── ci.yml                 # CI/CD pipeline
+└── KanbanBoard.sln                # Solution file
+```
+
+### Current Sprint Status
+
+**Sprint 3 Complete:** Project Structure Setup
+- ✅ .NET 8 solution created
+- ✅ Web API project added
+- ✅ Logical folder structure established
+- ✅ Git version control configured
+- ✅ CI/CD pipeline active
 
 ## 🖼️ Screenshots
 
